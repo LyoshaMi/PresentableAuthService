@@ -1,0 +1,11 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    container_name: presentable
+    ports:
+      - "5444:5432"
+    environment:
+      POSTGRES_USER: aleksey
+      POSTGRES_PASSWORD: as180401
+      POSTGRES_DB: presentable
